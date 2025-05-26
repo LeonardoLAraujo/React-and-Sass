@@ -1,0 +1,24 @@
+.list{
+    box-shadow: 1px 1px 51px -7px rgba(0,0,0,0.75);
+
+    .list__button{
+        display: flex;
+        padding: 0.5rem;
+        width: calc(100% - 17px);
+        box-shadow: -1px 17px 58px -7px rgba(0,0,0,0.57);
+        flex-direction: row;
+
+        button{
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            font-size: 18px;
+            letter-spacing: 4px;
+        }
+
+        .actual{
+            background-color: gray;
+            color: #fff;
+        }
+    }
+}

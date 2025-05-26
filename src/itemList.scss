@@ -1,0 +1,19 @@
+.itemList{
+    width: calc(100% - 36px);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 18px;
+    text-align: left;
+
+    .itemList__title{
+        font-size: 25px;
+        display: block;
+        margin-top: 0.6rem;
+    }
+
+    .itemList__description{
+        font-size: 18px;
+        color: gray;
+    }
+}

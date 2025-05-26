@@ -1,0 +1,22 @@
+.quote{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    border-left: 10px solid gray;
+    background-color: rgba(187, 180, 180, 0.308);
+
+    p{
+        padding: 0.8rem;
+        width: 90%;
+    }
+
+    p:first-child{
+        font-style: italic;
+    }
+
+    @media(min-width: 1200px){
+        p{
+            width: 500px;
+        }
+    }
+}
